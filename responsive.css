@@ -1,0 +1,97 @@
+/* mobile. If horizontal configuration is less than 46.1875em, mobile-menu is not displayed */
+@media (max-width: 46.1875em) {
+    .full-column-phone {
+        width: 100%;
+    }
+    .responsive-contact {
+        margin: 32px 0 16px 0;
+    }
+    .place-list {
+        display: initial;
+    }
+    .large-phone {
+        width: 100%;
+    }
+    #header {
+        overflow: hidden;
+    }
+    #nav li {
+        display: block;
+    }
+    #nav .subnav {
+        position: initial;
+        background-color: #596275;
+    }
+    #nav .subnav a {
+        color: white;
+        padding: 0 45px;
+    }
+    #nav .subnav li  {
+        padding: 14px 0;
+    }
+
+    #header .search-btn {
+        display: none;
+    }
+    #content .responsive-mobile {
+        width: 100%;
+        margin: 0;
+    }
+   #content .member-image {
+        padding: 0 0 0 13px;
+    }
+    #content .member-image {
+        width: 60%;
+    }
+    .contact-info {
+        line-height: 2.0;
+    }
+    .half-column {
+        width: 100%;
+    }
+    .responsive-send-mobile {
+        width: 100%;
+    }
+    .responsive-phone-ticket {
+        text-align: center;
+        width: 100%;
+    }
+    .responsive-info-phone {
+        text-align: center;
+    }
+}
+/* If horizontal configuration is greater than 46.3125em, mobile-menu is not displayed */ 
+@media (min-width: 46.3125em) {
+    #header .mobile-menu {
+        display: none;
+    }
+}
+/*ipad and ipad pro. If horizontal configuration from 46,325em to 64,0625em in size, severals will change   */
+@media (min-width: 46.3125em) and (max-width: 64.0625em) {
+    #footer .copy-right {
+        padding: 10px 0;
+        font-size: 40px;
+        margin: 40px 0;
+    }
+    #footer .social-platforms a {
+        margin: 0 10px;
+        padding: 50px;
+    }
+    .responsive-ipad {
+        font-size: 20px;
+        padding: 19px 19px;
+    }
+    .form-contact {
+        font-size: 25px;
+        padding: 24px;
+    }
+    .contact-info {
+        font-size: 27px;
+        line-height: 2.0;
+    }
+    #submit-contact {
+        font-size: 34px;
+        padding: 20px 19px;
+        width: 100%;
+    }
+}
