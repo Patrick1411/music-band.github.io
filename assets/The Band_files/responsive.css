@@ -1,0 +1,37 @@
+/* mobile */
+@media (max-width: 740px) {
+    #header {
+        overflow: hidden;
+    }
+    #nav li {
+        display: block;
+    }
+    #nav .subnav {
+        position: initial;
+        background-color: #596275;
+    }
+    #nav .subnav a {
+        color: white;
+        padding: 0 45px;
+    }
+    #nav .subnav li  {
+        padding: 14px 0;
+    }
+
+    #header .search-btn {
+        display: none;
+    }
+    #content .responsive-mobile {
+        width: 100%;
+        margin: 0 0 16px;
+    }
+    #content .member-image {
+        width: 60%;
+    }
+}
+
+@media (min-width: 741px) {
+    #header .mobile-menu {
+        display: none;
+    }
+}
